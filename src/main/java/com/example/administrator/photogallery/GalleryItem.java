@@ -59,7 +59,7 @@ public class GalleryItem {
         mOwner = owner;
     }
     public String getPhotoPageUrl(){
-        return "https://api.flickr.com/photos/"+mOwner+"/"+mId;
+        return "https://www.flickr.com/photos/"+mOwner+"/"+mId;
     }
 
     @Override
